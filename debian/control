@@ -1,0 +1,11 @@
+Source: sib-plain-nota
+Section: user/Multimedia
+Priority: optional
+Maintainer: Hannu Laine <hannu.e.laine@nokia.com>
+Build-Depends: debhelper (>= 4.0.0), libwhiteboard-dev (= 2.0-beta1), libnota-h-in-dev
+Standards-Version: 3.6.0
+
+Package: sib-plain-nota
+Architecture: any
+Depends: libwhiteboard (>= 2.0-beta1), libnota-h-in, sibd (= 0.4)
+Description: NoTA connectivity module for SIB Daemon
